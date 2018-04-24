@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="zh-en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ching-Hsiang</title>
+    <!-- Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim 和 Respond.js 是为了让 IE8 支持 HTML5 元素和媒体查询（media queries）功能 -->
+    <!-- 警告：通过 file:// 协议（就是直接将 html 页面拖拽到浏览器中）访问页面时 Respond.js 不起作用 -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+    body {
+        font-family: Meiryo, "微軟正黑體", "Microsoft JhengHei", Verdana, Arial, sans-serif;
+    }
+
+    .titel {
+        font-size: 42px;
+        text-align: center;
+        font-family: Impact;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .cvboxafter {
+        display: none;
+    }
+
+    .navbar-margin {
+        margin-top: 8px;
+    }
+
+    .navbar-margin li {
+        margin: 0px 3px 3px 3px;
+    }
+
+    .linkbox {
+        height: 80px;
+        widows: 60%;
+        background-color: #eee;
+        padding-left: 27%;
+        padding-top: 15px;
+        margin: 0px 0px 7px 0px;
+        border-radius: 6px;
+    }
+
+    .linkbox div {
+        float: left;
+        margin: 5px;
+    }
+    </style>
+</head>
+
+<body>
+    <nav class="nav navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header ">
+                <h2 class="titel">Cheng-Hsiang</h2>
+            </div>
+            <div class="navbar-margin navbar-right">
+                <ul class="nav navbar-nav ">
+                    <li><a href="#Portfolio" id="portfoliobutton" class="btn btn-default btn-lg active" role="button"> <span class="glyphicon glyphicon-user" aria-hidden="true"></span>Portfolio</a></li>
+                    <li><a href="#MySkill" class="btn btn-default btn-lg active" id="myskillbutton" role="button"><span class="glyphicon glyphicon-signal" aria-hidden="true">MySkill</a></li>
+                    <li><a href="#Profile" id="profilebutton" class="btn btn-default btn-lg active" role="button">  <span class="glyphicon glyphicon-list" aria-hidden="true">Profile</a></li>
+                </ul>
+            </div>
+    </nav>
+    </div>
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <img src="https://unsplash.it/2000/1250?image=001" data-color="#eee">
+            </div>
+            <div class="item">
+                <img src="https://unsplash.it/2000/1250?image=002" data-color="#eee">
+            </div>
+            <div class="item">
+                <img src="https://unsplash.it/2000/1250?image=003" data-color="#eee">
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#mycarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">上一則</span>
+      </a>
+            <a class="right carousel-control" href="#mycarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">下一則</span>
+      </a>
+        </div>
+    </div>
+    <div class="container" style="margin-top: 15px ">
+        <div class="jumbotron text-center">
+            <h1 contenteditable data-heading="Welcome">Welcome</h1>
+            <button class="btn btn-primary btn-lg show-cv">More</button>
+            <div class="cvboxbefore">
+                <p>你好我叫程昱翔....</p>
+            </div>
+            <div class="cvboxafter">
+                <p>
+                    你好我叫程昱翔,資管系畢業,自學前端3個月,對javascript有極高的熱情,但是沒有美術細胞,很希望能夠參與各式各樣的專案,踏入前端的原因很特別!一年前為家人設計一個排班Web application但是學三個月就放棄了,結果一年後又重拾課本開始自我學習的道路,參與了FreeCodeCamp專案,系統性的學習前端的各式各樣技能,學習的道路永無止境。
+                </p>
+            </div>
+        </div>
+        <div class="linkbox">
+            <div>
+                <button type="button" class="btn btn-primary btn-lg"><span class=" glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Facebook</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-success btn-lg"><span class=" glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Github</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-info btn-lg"><span class=" glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>Twitter</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-warning btn-lg"><span class=" glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>LinkedIn</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6" id="MySkill">
+                <div class="panel panel-default">
+                    <div class="panel-heading ">MySkill (不是真的,目前只是未來計畫)</div>
+                    <div class="panel-body">
+                        <p>
+                            Html
+                            <br>了解dom結構,擅長編寫xml dtd, schema
+                            <br> Css
+                            <br> 使用sass,了解Bootstrap各項功能,熟練運用RWD,對字體動畫有研究
+                            <br> Javascript
+                            <br> 熟練使用jQuery,正在學習vue.js,了解ES6的新式語法,熱愛javascript
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" name="Profile">
+                <div class="panel panel-default">
+                    <div class="panel-heading Profile" id="profile">Profile</div>
+                    <div class="panel-body">
+                        <p>
+                            姓名：程昱翔
+                            <br> 希望求職地點 : 北部
+                            <br> 學歷科系 : 國立台北商業大學資訊管理系學士
+                            <br> E-mail : n1056714@ntub.edu.tw
+                            <br> 手機 : 暫時保留
+                            <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading" id="Portfolio">
+                <h3>作品集</h3>
+                <p>只是個demo目前沒有作品</p>
+            </div>
+            <div class="panel-body">
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+      <img src="http://img.uuhy.com/uploads/2010/04/9d34_screen-shot-2009-10-13-at-100240-pm.png" alt="...">
+    </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+      <img src="http://img.uuhy.com/uploads/2010/04/9d34_screen-shot-2009-10-13-at-100240-pm.png" alt="...">
+    </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+      <img src="http://img.uuhy.com/uploads/2010/04/9d34_screen-shot-2009-10-13-at-100240-pm.png" alt="...">
+    </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+      <img src="http://img.uuhy.com/uploads/2010/04/9d34_screen-shot-2009-10-13-at-100240-pm.png" alt="...">
+    </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+        var h1 = document.querySelector("h1");
+
+        h1.addEventListener("input", function() {
+            this.setAttribute("data-heading", this.innerText);
+        });
+
+        //梅問題:https://www.minwt.com/webdesign-dev/html/16063.html
+        $(function() {
+            var $item = $('.carousel .item');
+            var $wHeight = $(window).height();
+            $item.height($wHeight);
+            $item.addClass('full-screen');
+
+            $('.carousel img').each(function() {
+                var $src = $(this).attr('src');
+                var $color = $(this).attr('data-color');
+                $(this).parent().css({
+                    'background-image': 'url(' + $src + ')',
+                    'background-color': $color
+                });
+                $(this).remove();
+            });
+
+            //下方自動加入控制圓鈕
+            var total = $('.carousel .carousel-inner div.item').size();
+            append_li();
+
+            function append_li() {
+                var li = "";
+                var get_ac = $(".carousel .active");
+                var ac = $(".carousel .carousel-inner div").index(get_ac);
+
+                for (var i = 0; i <= total - 1; i++) {
+                    if (i == (ac) / 2) {
+                        li += "<li data-target='#mycarousel' data-slide-to='" + i + "' class='active'></li>";
+                    } else {
+                        li += "<li data-target='#mycarousel' data-slide-to='" + i + "' class=''></li>";
+                    }
+                }
+                $(".carousel-indicators").append(li);
+            }
+
+            //單則隱藏控制鈕
+            if ($('.carousel .carousel-inner div.item').length < 2) {
+                $('.carousel-indicators, .carousel-control').hide();
+            }
+
+            //縮放視窗調整視窗高度
+            $(window).on('resize', function() {
+                $wHeight = $(window).height();
+                $item.height($wHeight);
+            });
+
+            //輪播秒數與滑入停止
+            $('.carousel').carousel({
+                interval: 5000,
+                pause: "hover"
+            });
+        });
+
+
+
+
+
+        //more按鈕 顯示內文
+        $(".show-cv").click(function() {
+            $(".show-cv").hide();
+            $(".cvboxbefore").hide();
+            $(".cvboxafter").fadeIn(2000);
+        })
+        //導航按鈕
+        $('#myskillbutton').click(function() { $('html,body').animate({ scrollTop: $('MySkill').offset().top }, 1); }); //代表一個完整的執行區塊
+
+        $('#profilebutton').click(function() { $('html,body').animate({ scrollTop: $('MySkill').offset().top }, 1); }); //代表一個完整的執行區塊
+
+        $('#portfoliobutton').click(function() { $('html,body').animate({ scrollTop: $('Portfolio').offset().top }, 1); }); //代表一個完整的執行區塊
+        </script>
+</body>
+
+</html>
